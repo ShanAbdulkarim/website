@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
 }
-.pillar{
+.pillars{
   display: flex;
   flex-direction: column;
   gap:15px;
