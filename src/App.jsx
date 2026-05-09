@@ -8,26 +8,22 @@ function App() {
 
   return (
     <>
+      <h1> Shan Abdulkarim Projects </h1>
+      <h2> This is a compilation of my public works</h2>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <div>
+          <img src = "/STARTRS.png"/>
+          <a href = "startrs.vercel.app"> Startrs </a>
+        </div>
+        <div>
+          <img src = "fpl.png"/>
+          <a href = "fpl-bot-frontend.vercel.app"> Fpl Bot </a>
+        </div>
+        <div>
+          <img src = "github.png"/>
+          <a href = "https://github.com/ShanAbdulkarim"> My Github </a>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
