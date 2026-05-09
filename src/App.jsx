@@ -15,11 +15,11 @@ function App() {
           <img className='imager'src = "/STARTRS.png"/>
           <a className = "link" href = "https://startrs.vercel.app"> Startrs </a>
         </div>
-        <div>
+        <div className='pillars'>
           <img className='imager' src = "fpl.png"/>
           <a className = "link" href = "https://fpl-bot-frontend.vercel.app"> Fpl Bot </a>
         </div>
-        <div>
+        <div className='pillars'>
           <img className='imager' src = "github.png"/>
           <a className = "link" href = "https://github.com/ShanAbdulkarim"> My Github </a>
         </div>
