@@ -30,7 +30,7 @@ function App() {
           </div>
           <div class = "divider"></div>
           <div className='pillars'>
-            <a href = "https://apipal.vercel.app"><img className='imager' src = "github.png"/></a>
+            <a href = "https://apipal.vercel.app"><img className='imager' src = "apipal.png"/></a>
             <a className = "link" href = "https://apipal.vercel.app"> Api-Pal </a>
           </div>
         </div>
