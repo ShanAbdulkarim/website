@@ -28,6 +28,11 @@ function App() {
             <a href = "https://github.com/ShanAbdulkarim"><img className='imager' src = "github.png"/></a>
             <a className = "link" href = "https://github.com/ShanAbdulkarim"> My Github </a>
           </div>
+          <div class = "divider"></div>
+          <div className='pillars'>
+            <a href = "https://apipal.vercel.app"><img className='imager' src = "github.png"/></a>
+            <a className = "link" href = "https://apipal.vercel.app"> Api-Pal </a>
+          </div>
         </div>
 
         <div className='divsider' />
@@ -35,7 +40,7 @@ function App() {
         <div className='row'>
           <div className='pillars'>
             <a href = "https://startrs.vercel.app"><img className='imager'  src = "/STARTRS.png"/></a>
-            <a className = "link" href = "https://startrs.vercel.app"> Startrs </a>
+            <a className = "link" href = "https://startrs.vercel.app">  </a>
           </div>
           <div class = "divider"></div>
           <div className='pillars'>
