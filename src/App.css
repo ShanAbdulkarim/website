@@ -18,7 +18,12 @@
   flex-direction: column;
   gap:15px;
 }
-
+.divider{
+  height: 350px;
+  width:5px;
+  border-radius: 15%;
+  background-color: black;
+}
 .imager{
   height:250px;
   width: 250px;
