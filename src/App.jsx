@@ -27,6 +27,9 @@ function App() {
             <a className = "link" href = "https://github.com/ShanAbdulkarim"> My Github </a>
           </div>
         </div>
+
+        <div className='divsider' />
+
         <div className='row'>
           <div className='pillars'>
             <a href = "https://startrs.vercel.app"><img className='imager'  src = "/STARTRS.png"/></a>

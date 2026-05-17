@@ -24,6 +24,13 @@
   border-radius: 15%;
   background-color: black;
 }
+.divsider{
+  height: 5px;
+  width:600px;
+  border-radius: 15%;
+  background-color: black;
+  margin:25px;
+}
 .imager{
   height:250px;
   width: 250px;
