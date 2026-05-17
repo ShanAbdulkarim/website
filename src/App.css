@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap:15px;
+  gap:25px;
 }
 .pillars{
   display: flex;
@@ -22,6 +22,7 @@
   height: 125px;
   width:5px;
   border-radius: 15%;
+  background-color: black;
 }
 .imager{
   height:250px;
