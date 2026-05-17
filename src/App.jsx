@@ -16,11 +16,11 @@ function App() {
           <a className = "link" href = "https://startrs.vercel.app"> Startrs </a>
         </div>
         <div className='pillars'>
-          <a href = "https://startrs.vercel.app"><img className='imager' href = "https://fpl-bot-frontend.vercel.app" src = "fpl.png"/></a>
+          <a href = "https://fpl-bot-frontend.vercel.app"><img className='imager' src = "fpl.png"/></a>
           <a className = "link" href = "https://fpl-bot-frontend.vercel.app"> Fpl Bot </a>
         </div>
         <div className='pillars'>
-          <a href = "https://startrs.vercel.app"><img className='imager' href = "https://github.com/ShanAbdulkarim" src = "github.png"/></a>
+          <a href = "https://github.com/ShanAbdulkarim"><img className='imager' src = "github.png"/></a>
           <a className = "link" href = "https://github.com/ShanAbdulkarim"> My Github </a>
         </div>
       </div>
