@@ -9,8 +9,10 @@ function App() {
   return (
     <>
       <h1> Shan Abdulkarim Projects </h1>
-      <h2> This is a compilation of my public works</h2>
+      <h3> This is a compilation of my public works</h3>
+
       <div className='pillars'>
+        <h2> Javascript Projects</h2>
         <div className='row'>
           <div className='pillars'>
             <a href = "https://startrs.vercel.app"><img className='imager'  src = "/STARTRS.png"/></a>
