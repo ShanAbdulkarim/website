@@ -40,6 +40,13 @@
   width: 50px;
   border-radius: 10%;
 }
+.phone{
+  margin-left: 50px;
+  border-radius: 20%;
+  background-color: blue;
+  height:800px;
+  width:600px;
+}
 .link{
   size:12px;
 }
