@@ -15,17 +15,22 @@ function App() {
         </div>
         <div className='pillars' id = "phone">
             <div className='row'>
-              <a href = "https://startrs.vercel.app"><img className='iphone'  src = "/STARTRS.png"/></a>
-              <a className = "link" href = "https://startrs.vercel.app"> Startrs </a>
-
-              <a href = "https://fpl-bot-frontend.vercel.app"><img className='iphone' src = "fpl.png"/></a>
-              <a className = "link" href = "https://fpl-bot-frontend.vercel.app"> Fpl Bot </a>
-
-              <a href = "https://github.com/ShanAbdulkarim"><img className='iphone' src = "github.png"/></a>
-              <a className = "link" href = "https://github.com/ShanAbdulkarim"> My Github </a>
-
-              <a href = "https://apipal.vercel.app"><img className='iphone' src = "apipal.png"/></a>
-              <a className = "link" href = "https://apipal.vercel.app"> Api-Pal </a>
+              <div className='pillars'>
+                <a href = "https://startrs.vercel.app"><img className='iphone'  src = "/STARTRS.png"/></a>
+                <a className = "link" href = "https://startrs.vercel.app"> Startrs </a>
+              </div>
+              <div className='pillars'>
+                <a href = "https://fpl-bot-frontend.vercel.app"><img className='iphone' src = "fpl.png"/></a>
+                <a className = "link" href = "https://fpl-bot-frontend.vercel.app"> Fpl Bot </a>
+              </div>
+              <div className='pillars'>
+                <a href = "https://github.com/ShanAbdulkarim"><img className='iphone' src = "github.png"/></a>
+                <a className = "link" href = "https://github.com/ShanAbdulkarim"> My Github </a>
+              </div>
+              <div className='pillars'>
+                <a href = "https://apipal.vercel.app"><img className='iphone' src = "apipal.png"/></a>
+                <a className = "link" href = "https://apipal.vercel.app"> Api-Pal </a>
+              </div>
             </div>
         </div>
       </div>
