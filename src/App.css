@@ -35,6 +35,11 @@
   height:250px;
   width: 250px;
 }
+.imager{
+  height:50px;
+  width: 50px;
+  border-radius: 10%;
+}
 .link{
   size:12px;
 }
