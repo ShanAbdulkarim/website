@@ -7,7 +7,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
+
     <>
+    <div className='outside'> <div className='inside'> Inners </div></div>
     <div className='pillars'>
       <div className='row'>
         <div className='pillars'>
