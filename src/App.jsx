@@ -15,6 +15,7 @@ function App() {
           <h3> Hello there ye who found yourself so unlucky as to appear here. <br></br>
           I am Shan Abdulkarim and here are my works.</h3>
         </div>
+        <div className = "outside"> <div className='inside'>
         <div className='pillars' id = "phone">
             <div className='row'>
               <div className='pillars'>
@@ -35,6 +36,7 @@ function App() {
               </div>
             </div>
         </div>
+        </div></div>
       </div>
       <div className='panel'> 
         <div className='pillars'>
