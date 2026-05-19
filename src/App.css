@@ -89,11 +89,12 @@ a:visited{
   display: flex;
   align-items: center;
   justify-content: center;
+    margin:5px;
+
 }
 .inside{
   position: relative;
   z-index: 1;
-  margin:5px;
 }
 .outside::before{
   content:"";
