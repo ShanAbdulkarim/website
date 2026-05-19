@@ -90,12 +90,13 @@ a:visited{
   display: flex;
   align-items: center;
   justify-content: center;
+    margin:10px;
+
 
 }
 .inside{
   position: relative;
   z-index: 1;
-  margin:10px;
   background: white;
 }
 .outside::before{
