@@ -99,7 +99,7 @@ a:visited{
 .outside::before{
   content:"";
   display:block;
-  background: linear-gradient(90def, rgba(255,255,255,0) 0%, rgba(102,102,102,0.75) 50%
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(102,102,102,0.75) 50%
   rgba(255,255,255,0)100%);
   animation: rotate 5s linear infinite;
   z-index: 0;
