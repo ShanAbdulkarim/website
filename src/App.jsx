@@ -35,7 +35,7 @@ function App() {
             </div>
         </div>
       </div>
-      <div className='row'> 
+      <div className='panel'> 
         <div className='pillars'>
           <a href = "https://startrs.vercel.app"><img className='pictures' src = "/STARTRS.png" /></a>
           <a className='link' href = "https://startrs.vercel.app"> Startrs </a>
