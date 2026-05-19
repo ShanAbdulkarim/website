@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <div className='pillars'>
       <div className='row'>
         <div className='pillars'>
           <h1> Shan Abdulkarim Projects </h1>
@@ -34,7 +35,20 @@ function App() {
             </div>
         </div>
       </div>
-
+      <div className='row'> 
+        <div className='pillars'>
+          <a href = "https://startrs.vercel.app"><img className='pictures' src = "/STARTRS.png" /></a>
+          <a className='link' href = "https://startrs.vercel.app"> Startrs </a>
+        </div>
+        <div className='pillars'>
+          <h1> Javascript </h1>
+          <p> I have been writing Javascript code for over half a decade. While I am skilled <br></br>
+              in other fields, javascript is certainly my strongest suit. I have numerous public <br></br>
+              projects written in Javascript, both also showing fluency in react and Node js
+              </p>
+        </div>
+      </div>
+  </div>
     </>
   )
 }
