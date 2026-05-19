@@ -64,7 +64,7 @@ a:visited{
 #phone{
   border-color: black 4px solid ;
   padding:20px;
-  border-radius: 10%;
+  border-radius: 0%;
   background-color: lightgray;
   height:640px;
   width:550px;
