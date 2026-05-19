@@ -77,7 +77,6 @@ a:visited{
   width: 200px;
 }
 .examples{
-  border-radius: 15%;
   height:100px;
   width: 200px;
 }
@@ -99,8 +98,8 @@ a:visited{
 .outside::before{
   content:"";
   position: absolute;
-  width:1000px;
-  height:1000px;
+  width:300px;
+  height:300px;
   display:block;
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(102,102,102,0.75) 50%,
   rgba(255,255,255,0)100%);
