@@ -101,6 +101,7 @@ function App() {
       </div>
       <div className='panel'>
         <div className='pillars'>
+          <h1> About Me </h1>
           <p>I think my best attribute as a worker is my willingness to learn something new.<br/> 
           I pick up languages in a week, and give me an hour and I”ll understand the framework.<br/> 
           I also love to use engines for game development and have picked up their workflow quite quickly.
