@@ -4,10 +4,12 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: darkblue;
   color:white;
 }
 
+body{
+  background-color:darkblue;
+}
 .row{
   display: flex;
   flex-direction: row;
@@ -23,7 +25,7 @@
   align-items: center;
   gap:12rem;
   background-color: blue;
-  border-radius: 15%;
+  border-radius: 5%;
   margin-top: 2rem;
   padding: 5rem;
 }
