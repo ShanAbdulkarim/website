@@ -61,7 +61,7 @@ function App() {
               </p>
         </div>
         <div className='pillars'>
-          <a href = "https://github.com/ShanAbdulkarim/TeamSelector"><img className='pictures' src = "/STARTRS.png" /></a>
+          <a href = "https://github.com/ShanAbdulkarim/TeamSelector"><img className='pictures' src = "/github.png" /></a>
           <a className='link' href = "https://github.com/ShanAbdulkarim/TeamSelector"> Team Selector </a>
         </div>
       </div>
