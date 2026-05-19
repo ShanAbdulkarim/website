@@ -95,6 +95,7 @@ a:visited{
 .inside{
   position: relative;
   z-index: 1;
+  margin:10px;
 }
 .outside::before{
   content:"";
