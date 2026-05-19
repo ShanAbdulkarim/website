@@ -8,13 +8,13 @@
 }
 
 body{
-  background-color:darkblue;
+  background-color:white;
 }
 a{
-  color: white;
+  color: black;
 }
 a:visited{
-  color:grey;
+  color:black;
 }.row{
   display: flex;
   flex-direction: row;
@@ -29,7 +29,7 @@ a:visited{
   justify-content: center;
   align-items: center;
   gap:12rem;
-  background-color: blue;
+  background-color: lightgray;
   border-radius: 5%;
   margin-top: 2rem;
   padding: 5rem;
@@ -62,7 +62,7 @@ a:visited{
   border-radius: 10%;
 }
 #phone{
-  border-color: black solid 4px;
+  border-color: black 4px solid ;
   padding:20px;
   margin-left: 50px;
   border-radius: 10%;
