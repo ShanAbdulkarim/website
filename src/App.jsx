@@ -82,7 +82,22 @@ function App() {
           databases as of May 2026.
               </p>
         </div>
-
+      </div>
+      <div className='panel'> 
+        <div className='pillars'>
+          <h1> Frameworks </h1>
+          <p> As mentioned prior I have a fluent understanding of Node, React, and Django.<br></br> 
+          Node is the one which I am best, react as a close second and Django cool third place. <br></br>
+          However this section will likely never stop because I plan to learn a lot more frameworks <br></br>
+          in the near future. I am alzo very familiar with Docker as most of my github projects<br></br> 
+          are dockerzied. 
+              </p>
+        </div>
+        <div className='pillars'>
+          <img className='examples' src = "/mongodb.png" />
+          <img className='examples' src = "/sql.png" />
+          <img className='examples' src = "/firebase.png" />
+        </div>
       </div>
   </div>
     </>
