@@ -94,9 +94,9 @@ function App() {
               </p>
         </div>
         <div className='pillars'>
-          <img className='examples' src = "/mongodb.png" />
-          <img className='examples' src = "/sql.png" />
-          <img className='examples' src = "/firebase.png" />
+          <img className='examples' src = "/node.png" />
+          <img className='examples' src = "/react.png" />
+          <img className='examples' src = "/django.png" />
         </div>
       </div>
   </div>
