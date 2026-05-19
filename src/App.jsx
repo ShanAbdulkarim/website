@@ -11,8 +11,9 @@ function App() {
     <div className='pillars'>
       <div className='row'>
         <div className='pillars'>
-          <h1> Shan Abdulkarim Projects </h1>
-          <h3> This is a compilation of my public works</h3>
+          <h1> Shan Abdulkarim </h1>
+          <h3> Hello there ye who found yourself so unlucky as to appear here. <br></br>
+          I am Shan Abdulkarim and here are my works.</h3>
         </div>
         <div className='pillars' id = "phone">
             <div className='row'>
@@ -46,6 +47,22 @@ function App() {
               in other fields, javascript is certainly my strongest suit. I have numerous public <br></br>
               projects written in Javascript, both also showing fluency in react and Node js
               </p>
+        </div>
+      </div>
+      <div className='panel'> 
+        <div className='pillars'>
+          <h1> Python </h1>
+          <p> I have been writing python code for 4 years now. I have several github projects <br></br>
+              that show my skill in Python and find it to be the easiest language to navigate. <br></br>
+              I think the coolest thing about python is how easy it was for me to pick up. Coming <br></br>
+              from a primarily C++ and Javascript background at the time I expected a very syntax-y <br></br>
+              feel but python did not give me that at all and gained quite a strong understanding <br></br>
+              of it in about a week. My best framework with python is Django
+              </p>
+        </div>
+        <div className='pillars'>
+          <a href = "https://github.com/ShanAbdulkarim/TeamSelector"><img className='pictures' src = "/STARTRS.png" /></a>
+          <a className='link' href = "https://github.com/ShanAbdulkarim/TeamSelector"> Team Selector </a>
         </div>
       </div>
   </div>
