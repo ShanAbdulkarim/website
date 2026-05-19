@@ -65,6 +65,25 @@ function App() {
           <a className='link' href = "https://github.com/ShanAbdulkarim/TeamSelector"> Team Selector </a>
         </div>
       </div>
+      <div className='panel'> 
+        <div className='pillars'>
+          <img className='examples' src = "/mongodb.png" />
+          <img className='examples' src = "/sql.png" />
+          <img className='examples' src = "/firebase.png" />
+        </div>
+        <div className='pillars'>
+          <h1> Databases</h1>
+          <p> If there is a free database software you can bet I've used it. MongoDB, SQL, <br></br>
+          Firebase, JSON the list goes on and on. I am extremely fluent in JSON as that's<br></br> 
+          how I send messages across frontend and backend software. MongoDB is another<br></br> 
+          favorite of mine using both Mongoose and Mongoclient work for me, however<br></br> 
+          I grew to prefer mongoclient. SQL I had used when I learned PHP 3 years ago<br></br> 
+          and took quite a liking to it. However firebase and firestore are my preferred <br></br> 
+          databases as of May 2026.
+              </p>
+        </div>
+
+      </div>
   </div>
     </>
   )

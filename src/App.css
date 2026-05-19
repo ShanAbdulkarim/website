@@ -76,6 +76,11 @@ a:visited{
   height:200px;
   width: 200px;
 }
+.examples{
+  border-radius: 15%;
+  height:100px;
+  width: 100px;
+}
 .link{
   size:12px;
 }
