@@ -9,7 +9,6 @@ function App() {
   return (
 
     <>
-    <div className='outside'> <div className='inside'> Inners </div></div>
     <div className='pillars'>
       <div className='row'>
         <div className='pillars'>
