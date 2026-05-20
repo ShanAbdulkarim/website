@@ -40,6 +40,9 @@ a:visited{
   gap:15px;
   color: black;
 }
+.boxless{
+  color:white;
+}
 .divider{
   height: 350px;
   width:5px;

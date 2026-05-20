@@ -12,8 +12,8 @@ function App() {
     <div className='pillars'>
       <div className='row'>
         <div className='pillars'>
-          <h1> Shan Abdulkarim </h1>
-          <h3> Hello there ye who found yourself so unlucky as to appear here. <br></br>
+          <h1 className='boxless'> Shan Abdulkarim </h1>
+          <h3 className='boxless'> Hello there ye who found yourself so unlucky as to appear here. <br></br>
           I am Shan Abdulkarim and here are my works.</h3>
         </div>
         <div className = "outside"> <div className='inside'>
