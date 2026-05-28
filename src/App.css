@@ -93,4 +93,7 @@ a:visited{
   height:150px;
   width:700px;
   background-image: linear-gradient(orange, brown);
+  display: flex;
+  flex-direction: row;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
