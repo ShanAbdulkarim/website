@@ -11,33 +11,7 @@ function App() {
     <>
     <div className='pillars'>
       <div className='row'>
-        <div className='pillars'>
           <h1 className='boxless'> Shan Abdulkarim </h1>
-          <h3 className='boxless'> Hello there ye who found yourself so unlucky as to appear here. <br></br>
-          I am Shan Abdulkarim and here are my works.</h3>
-        </div>
-        <div className = "outside"> <div className='inside'>
-        <div className='pillars' id = "phone">
-            <div className='row'>
-              <div className='pillars'>
-                <a href = "https://startrs.vercel.app"><img className='iphone'  src = "/STARTRS.png"/></a>
-                <a className = "link" href = "https://startrs.vercel.app"> Startrs </a>
-              </div>
-              <div className='pillars'>
-                <a href = "https://fpl-bot-frontend.vercel.app"><img className='iphone' src = "fpl.png"/></a>
-                <a className = "link" href = "https://fpl-bot-frontend.vercel.app"> Fpl Bot </a>
-              </div>
-              <div className='pillars'>
-                <a href = "https://github.com/ShanAbdulkarim"><img className='iphone' src = "github.png"/></a>
-                <a className = "link" href = "https://github.com/ShanAbdulkarim"> My Github </a>
-              </div>
-              <div className='pillars'>
-                <a href = "https://apipal.vercel.app"><img className='iphone' src = "apipal.png"/></a>
-                <a className = "link" href = "https://apipal.vercel.app"> Api-Pal </a>
-              </div>
-            </div>
-        </div>
-        </div></div>
       </div>
       <div className='panel'> 
         <div className='pillars'>
