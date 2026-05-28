@@ -92,4 +92,5 @@ a:visited{
 .camel{
   height:100px;
   width:550px;
+  background-image: linear-gradient(orange, brown);
 }
