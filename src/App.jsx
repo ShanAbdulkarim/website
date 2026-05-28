@@ -10,6 +10,9 @@ function App() {
 
     <>
     <div className='pillars'>
+      <div className='camel'>
+        <img src = '/camell.gif'/>
+      </div>
       <div className='row'>
           <h1 className='boxless'> Shan Abdulkarim </h1>
       </div>
