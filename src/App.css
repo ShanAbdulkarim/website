@@ -87,11 +87,10 @@ a:visited{
 #camelio{
   width:150px;
   height:150px;
-  margin-top: auto;
 }
 
 .camel{
-  height:200px;
+  height:150px;
   width:700px;
   background-image: linear-gradient(orange, brown);
 }
