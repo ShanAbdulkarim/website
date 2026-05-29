@@ -40,23 +40,45 @@ function App() {
         <div className='Pillars' id={software ? "shown" : "hidden"}>
           <h1> My Skills </h1>
           <div className='grid'>
-            <ul>
+            <div className='pillars'>
               <h3> Languages</h3>
-              <li> Python </li>
-              <li> Javascript </li>
-              <li> Java </li>
-              <li> C++ </li>
-              <li> HTML/CSS </li>
-              <li> PHP </li>
-            </ul>
-            <ul>
+              <ul>
+                <li> Python </li>
+                <li> Javascript </li>
+                <li> Java </li>
+                <li> C++ </li>
+                <li> HTML/CSS </li>
+                <li> PHP </li>
+              </ul>
+            </div>
+            <div className='pillars'>
               <h3> Databases</h3>
-              <li> Firebase</li>
-              <li> MongoDB</li>
-              <li> SQL</li>
-              <li> SQLite</li>
-              <li> JSON</li>
-            </ul>
+              <ul>
+                <li> Firebase</li>
+                <li> MongoDB</li>
+                <li> SQL</li>
+                <li> SQLite</li>
+                <li> JSON</li>
+              </ul>
+            </div>
+            <div className='pillars'>
+              <h3> Frameworks</h3>
+              <h4> Backend</h4>
+              <ul>
+                <li> Django</li>
+                <li> Node</li>
+              </ul>
+              <h4> Frontend</h4>
+              <ul>
+                <li> React</li>
+              </ul>
+            </div>
+            <div className='pillars'>
+              <h3> Infrastructure</h3>
+              <h4> Authentication:</h4>
+              <ul> <li> Firestore</li></ul>
+              <h4> </h4>
+            </div>
           </div>
         </div>
         <div className='Pillars' id={projects ? "shown" : "hidden"}>
