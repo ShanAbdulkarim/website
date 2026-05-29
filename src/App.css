@@ -107,3 +107,11 @@ a:visited{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 10px;
 }
+
+#shown{
+
+}
+
+#hidden{
+  display: none;
+}
