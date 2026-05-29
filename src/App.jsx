@@ -18,13 +18,13 @@ function App() {
           <h1>And wants to be <br/> well laden</h1>
         </div>
       </div>
-      <div className='row'>
+      <div className='row' id = "navbar">
+        <h1 className='boxless'> Shan Abdulkarim </h1>
         <a> Software Engineering</a>
         <a href = "https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</a>
         <a> Major Projects </a>
       </div>
       <div className='row'>
-          <h1 className='boxless'> Shan Abdulkarim </h1>
       </div>
       
   </div>
