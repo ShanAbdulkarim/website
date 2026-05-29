@@ -32,9 +32,9 @@ function App() {
         </div>
         <h1> Shan Abdulkarim </h1>
         <div className='row' id="navbar">
-          <a onClick={() => toSoftwareEngineering}> Software Engineering</a>
+          <a onClick={toSoftwareEngineering}> Software Engineering</a>
           <a href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</a>
-          <a onClick={() => toProjects}> Projects </a>
+          <a onClick={toProjects}> Projects </a>
         </div>
 
         <div className='Pillars' id={software ? "shown" : "hidden"}>
