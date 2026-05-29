@@ -24,6 +24,12 @@ a:visited{
   gap:60px;
   background-color: none;
 }
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:60px;
+  align-items: center;
+}
 .panel{
   display: flex;
   flex-direction: row;

@@ -39,7 +39,7 @@ function App() {
 
         <div className='Pillars' id={software ? "shown" : "hidden"}>
           <h1> My Skills </h1>
-          <div className='row'>
+          <div className='grid'>
             <ul>
               <h3> Languages</h3>
               <li> Python </li>
