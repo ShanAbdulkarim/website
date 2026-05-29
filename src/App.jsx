@@ -21,7 +21,7 @@ function App() {
       <div className='row'>
         <a> Software Engineering</a>
         <a href = "https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</a>
-        <a> </a>
+        <a> Major Projects </a>
       </div>
       <div className='row'>
           <h1 className='boxless'> Shan Abdulkarim </h1>
