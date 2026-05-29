@@ -19,6 +19,11 @@ function App() {
         </div>
       </div>
       <div className='row'>
+        <a> Software Engineering</a>
+        <a href = "https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</a>
+        <a> </a>
+      </div>
+      <div className='row'>
           <h1 className='boxless'> Shan Abdulkarim </h1>
       </div>
       <div className='panel'> 
@@ -29,8 +34,8 @@ function App() {
         <div className='pillars'>
           <h1> Javascript </h1>
           <p> I have been writing Javascript code for over half a decade. While I am skilled <br></br>
-              in other fields, javascript is certainly my strongest suit. I have numerous public <br></br>
-              projects written in Javascript, both also showing fluency in react and Node js
+              in other fields, Javascript is certainly my strongest suit. I have numerous public <br></br>
+              projects written in Javascript, both also showing fluency in React and Node js
               </p>
         </div>
       </div>
