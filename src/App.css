@@ -98,7 +98,7 @@ a:visited{
 }
 .sky{
   width:700px;
-  height:200px;
+  height:190px;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(orange, brown);
