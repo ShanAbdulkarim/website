@@ -19,7 +19,7 @@ function App() {
         </div>
       </div>
       <div className='row' id = "navbar">
-        <h1 className='boxless'> Shan Abdulkarim </h1>
+        <a className='boxless'> Shan Abdulkarim </a>
         <a> Software Engineering</a>
         <a href = "https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</a>
         <a> Major Projects </a>
