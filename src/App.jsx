@@ -63,7 +63,7 @@ function App() {
           <h1> Projects </h1>
           <div className='row'>
             <div className='pillars'>
-              <img src="STARTRS.png" />
+              <img src="STARTRS.png" className = "imager"/>
               <a href='https://startrs.vercel.app'> STARTRS </a>
             </div>
 
