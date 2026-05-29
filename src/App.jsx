@@ -40,8 +40,11 @@ function App() {
         <div className='Pillars' id={software ? "shown" : "hidden"}>
           <h1> My Skills </h1>
           <div className='grid'>
+            <h3>Languages:</h3>
+            <h3>Databases:</h3>
+            <h3>Frameworks:</h3>
+            <h3>Infrastructure:</h3>
             <div className='pillars'>
-              <h3> Languages</h3>
               <ul>
                 <li> Python </li>
                 <li> Javascript </li>
@@ -52,7 +55,6 @@ function App() {
               </ul>
             </div>
             <div className='pillars'>
-              <h3> Databases</h3>
               <ul>
                 <li> Firebase</li>
                 <li> MongoDB</li>
@@ -62,7 +64,6 @@ function App() {
               </ul>
             </div>
             <div className='pillars'>
-              <h3> Frameworks</h3>
               <h4> Backend</h4>
               <ul>
                 <li> Django</li>
@@ -74,7 +75,6 @@ function App() {
               </ul>
             </div>
             <div className='pillars'>
-              <h3> Infrastructure</h3>
               <h4> Authentication:</h4>
               <ul> <li> Firestore</li></ul>
               <h4> </h4>
