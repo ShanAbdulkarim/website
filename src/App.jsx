@@ -92,8 +92,8 @@ function App() {
       <div className='panel'>
         <div className='pillars'>
           <h1> About Me </h1>
-          <p>I think my best attribute as a worker is my willingness to learn something new.<br/> 
-          I pick up languages in a week, and give me an hour and I”ll understand the framework.<br/> 
+          <p>I think my best attribute as a person is my willingness to learn something new.<br/> 
+          I pick up languages and frameworks very quickly.<br/> 
           I also love to use engines for game development and have picked up their workflow quite quickly.
 
               <br/> <br/> My best attribute is my insatiable desire to amass knowledge. 
