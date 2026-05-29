@@ -10,10 +10,13 @@ function App() {
 
     <>
     <div className='pillars'>
-      <div className='camel'>
-        <h1>Then kneels down <br/>like the camel</h1>
-        <img id = 'camelio' src = '/camell.gif'/>
-        <h1>And wants to be <br/> well laden</h1>
+      <div className='sky'> 
+        <h1>What is heavy? So asks the spirit that would bear much, and</h1>
+        <div className='camel'>
+          <h1>Then kneels down <br/>like the camel</h1>
+          <img id = 'camelio' src = '/camell.gif'/>
+          <h1>And wants to be <br/> well laden</h1>
+        </div>
       </div>
       <div className='row'>
           <h1 className='boxless'> Shan Abdulkarim </h1>
