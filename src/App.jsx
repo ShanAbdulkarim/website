@@ -88,7 +88,10 @@ function App() {
               <img src="STARTRS.png" className = "imager"/>
               <a href='https://startrs.vercel.app'> STARTRS </a>
             </div>
-
+            <div className='pillars'>
+              <img src="claude-pl.png" className = "imager"/>
+              <a href='https://fpl-friend-claude.vercel.app'> FPL Friend Claude </a>
+            </div>
           </div>
 
         </div>
