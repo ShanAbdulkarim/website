@@ -105,7 +105,7 @@ function App() {
           </div>
         </div>
         <div className='Pillars' id={videoEditing ? "shown" : "hidden"}>
-          <h1> Projects </h1>
+          <h1> Video Editing Projects </h1>
           <div className='row'>
             <div className='pillars'>
               <div className='pillars'>
