@@ -122,7 +122,7 @@ function App() {
                 </div>
                 <div className='pillars'>
                   <img src = "traveler.jpg" className='imager'/>
-                  <a href = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
+                  <a href = "https://www.instagram.com/p/DXPgu-FCbqC/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
                   <img src = "traveler.jpg" className='imager'/>
