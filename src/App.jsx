@@ -124,9 +124,11 @@ function App() {
                   <a href = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
+                  <img src = "traveler.jpg" className='imager'/>
                   <a href = "https://www.instagram.com/p/DVP84yoDYqP/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
+                  <img src = "traveler.jpg" className='imager'/>
                   <a href = "https://www.instagram.com/p/DVZyxaICcYB/"> Watch now! </a>
                 </div>
               </div>
