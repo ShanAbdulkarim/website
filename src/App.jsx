@@ -113,17 +113,19 @@ function App() {
                 <br />
                 <p> I created all these reels in After Effects</p>
               </div>
-              <div className='pillars'>
-                <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXaPmg0CcZm/" className='imager'/>
-              </div>
-              <div className='pillars'>
-                <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXPgu-FCbqC/" className='imager'/>
-              </div>
-              <div className='pillars'>
-                <img src = "traveler.jpg" href = "https://www.instagram.com/p/DVP84yoDYqP/" className='imager'/>
-              </div>
-              <div className='pillars'>
-                <img src = "traveler.jpg" href = "https://www.instagram.com/p/DVZyxaICcYB/" className='imager'/>
+              <div className='row'>
+                <div className='pillars'>
+                  <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXaPmg0CcZm/" className='imager'/>
+                </div>
+                <div className='pillars'>
+                  <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXPgu-FCbqC/" className='imager'/>
+                </div>
+                <div className='pillars'>
+                  <img src = "traveler.jpg" href = "https://www.instagram.com/p/DVP84yoDYqP/" className='imager'/>
+                </div>
+                <div className='pillars'>
+                  <img src = "traveler.jpg" href = "https://www.instagram.com/p/DVZyxaICcYB/" className='imager'/>
+                </div>
               </div>
             </div>
           </div>
