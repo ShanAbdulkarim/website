@@ -112,10 +112,11 @@ function App() {
                 <img src = "gabstorm.png" href = "https://www.instagram.com/gabstorm.chess/" className='images'/>
                 <br />
                 <p> I created all these reels in After Effects</p>
+                <h3>Link: <Link to = "https://www.instagram.com/p/DXaPmg0CcZm/"> </Link></h3>
               </div>
               <div className='row'>
                 <div className='pillars'>
-                  <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXaPmg0CcZm/" className='imager'/>
+                  <img src = "traveler.jpg" className='imager'/>
                 </div>
                 <div className='pillars'>
                   <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXPgu-FCbqC/" className='imager'/>
