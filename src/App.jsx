@@ -112,22 +112,22 @@ function App() {
                 <img src = "gabstorm.png" href = "https://www.instagram.com/gabstorm.chess/" className='images'/>
                 <br />
                 <p> I created all these reels for this creator in After Effects</p>
-                <Link to = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </Link>
+                <a href = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
               </div>
               <div className='row'>
                 <div className='pillars'>
                   <img src = "traveler.jpg" className='imager'/>
-                  <Link to = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </Link>
+                  <a href = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
                   <img src = "traveler.jpg" className='imager'/>
-                  <Link to = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </Link>
+                  <a href = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
-                  <Link to = "https://www.instagram.com/p/DVP84yoDYqP/"> Watch now! </Link>
+                  <a href = "https://www.instagram.com/p/DVP84yoDYqP/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
-                  <Link to = "https://www.instagram.com/p/DVZyxaICcYB/"> Watch now! </Link>
+                  <a href = "https://www.instagram.com/p/DVZyxaICcYB/"> Watch now! </a>
                 </div>
               </div>
             </div>
