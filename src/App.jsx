@@ -7,14 +7,23 @@ function App() {
   const [count, setCount] = useState(0)
   const [projects, setProjects] = useState(false)
   const [software, setSoftware] = useState(true)
+  const [videoEditing, setVideoEditing] = useState(false)
 
   function toSoftwareEngineering() {
     setProjects(false)
+    setVideoEditing(false)
     setSoftware(true)
   }
 
   function toProjects() {
     setProjects(true)
+    setVideoEditing(false)
+    setSoftware(false)
+  }
+
+  function toVideoEditing() {
+    setProjects(false)
+    setVideoEditing(true)
     setSoftware(false)
   }
 
@@ -32,9 +41,10 @@ function App() {
         </div>
         <h1> Shan Abdulkarim </h1>
         <div className='row' id="navbar">
-          <a onClick={toSoftwareEngineering}> Software Engineering</a>
-          <a href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</a>
-          <a onClick={toProjects}> Projects </a>
+          <button onClick={toSoftwareEngineering}> Software Engineering</button>
+          <button href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</button>
+          <button onClick={toProjects}> Projects </button>
+          <button onClick={toVideoEditing}> Video Editing</button>
         </div>
 
         <div className='Pillars' id={software ? "shown" : "hidden"}>
@@ -93,7 +103,28 @@ function App() {
               <a href='https://fpl-friend-claude.vercel.app'> FPL Friend Claude </a>
             </div>
           </div>
-
+        </div>
+        <div className='Pillars' id={videoEditing ? "shown" : "hidden"}>
+          <h1> Projects </h1>
+          <div className='row'>
+            <div className='pillars'>
+              <img src = "gabstorm.png" href = "https://www.instagram.com/gabstorm.chess/" className='images'/>
+              <br />
+              <p> I created all these reels in After Effects</p>
+            </div>
+            <div className='pillars'>
+              <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXaPmg0CcZm/" className='imager'/>
+            </div>
+            <div className='pillars'>
+              <img src = "traveler.jpg" href = "https://www.instagram.com/p/DXPgu-FCbqC/" className='imager'/>
+            </div>
+            <div className='pillars'>
+              <img src = "traveler.jpg" href = "https://www.instagram.com/p/DVP84yoDYqP/" className='imager'/>
+            </div>
+            <div className='pillars'>
+              <img src = "traveler.jpg" href = "https://www.instagram.com/p/DVZyxaICcYB/" className='imager'/>
+            </div>
+          </div>
         </div>
 
       </div>
