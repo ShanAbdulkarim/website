@@ -112,7 +112,7 @@ function App() {
                 <h3> I worked for this creator and created these <br/> reels in After Effects </h3>
                 <img src = "gabstorm.png" href = "https://www.instagram.com/gabstorm.chess/" className='images'/>
                 <br />
-                <a href = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
+                <a href = "https://www.instagram.com/gabstorm.chess/"> Watch now! </a>
               </div>
               <h3> I worked for the Traveling Chess Club and created these <br/> reels in After Effects </h3>
               <div className='row'>
