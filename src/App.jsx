@@ -172,19 +172,19 @@ function App() {
           <div className='row'>
             <div className='pillars'>
               <h1> Intro Music:</h1>
-              <audio controls> <source src = "Intro.mp3" type="audio/mpeg"></source></audio>
+              <audio controls controlsList='nodownload'> <source src = "Intro.mp3" type="audio/mpeg"></source></audio>
             </div>
             <div className='pillars'>
               <h1> Trap Music:</h1>
-              <audio controls> <source src = "Trap.mp3" type="audio/mpeg"></source></audio>
+              <audio controls controlsList='nodownload'> <source src = "Trap.mp3" type="audio/mpeg"></source></audio>
             </div>            
             <div className='pillars'>
               <h1> Alt Rock Music:</h1>
-              <audio controls> <source src = "Rock.mp3" type="audio/mpeg"></source></audio>
+              <audio controls controlsList='nodownload'> <source src = "Rock.mp3" type="audio/mpeg"></source></audio>
             </div>            
             <div className='pillars'>
               <h1> Crescendo song:</h1>
-              <audio controls> <source src = "Crescendo.mp3" type="audio/mpeg"></source></audio>
+              <audio controls controlsList='nodownload'> <source src = "Crescendo.mp3" type="audio/mpeg"></source></audio>
             </div>          </div>
         </div>
 
