@@ -9,22 +9,34 @@ function App() {
   const [projects, setProjects] = useState(false)
   const [software, setSoftware] = useState(true)
   const [videoEditing, setVideoEditing] = useState(false)
+  const [reading, setReading] = useState(false)
+  const [music, setMusic] = useState(false)
 
   function toSoftwareEngineering() {
     setProjects(false)
     setVideoEditing(false)
     setSoftware(true)
+    setMusic(false)
   }
 
   function toProjects() {
     setProjects(true)
     setVideoEditing(false)
+    setMusic(false)
     setSoftware(false)
   }
 
   function toVideoEditing() {
     setProjects(false)
     setVideoEditing(true)
+    setMusic(false)
+    setSoftware(false)
+  }
+
+  function toMusic(){
+    setMusic(true)
+    setProjects(false)
+    setVideoEditing(false)
     setSoftware(false)
   }
 
@@ -43,6 +55,12 @@ function App() {
         <h1> Shan Abdulkarim </h1>
         <div className='row' id="navbar">
           <button onClick={toSoftwareEngineering}> Software Engineering</button>
+          <button href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</button>
+          <button onClick={toProjects}> Projects </button>
+          <button onClick={toVideoEditing}> Video Editing</button>
+        </div>
+        <div className='row' id="navbar">
+          <button onClick={toMusic}> Music</button>
           <button href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</button>
           <button onClick={toProjects}> Projects </button>
           <button onClick={toVideoEditing}> Video Editing</button>
@@ -92,6 +110,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className='Pillars' id={projects ? "shown" : "hidden"}>
           <h1> Projects </h1>
           <div className='pillars'>
@@ -113,6 +132,8 @@ function App() {
             </div>
           </div>
         </div>
+
+
         <div className='Pillars' id={videoEditing ? "shown" : "hidden"}>
           <h1> Video Editing Projects </h1>
           <div className='row'>
@@ -144,6 +165,27 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className='pillars' id = {music ? "shown" : "hidden"}>
+          <h1> Music tracks</h1>
+          <div className='row'>
+            <div className='pillars'>
+              <h1> Intro Music:</h1>
+              <audio controls> <source src = "Intro.mp3" type="audio/mpeg"></source></audio>
+            </div>
+            <div className='pillars'>
+              <h1> Trap Music:</h1>
+              <audio controls> <source src = "Trap.mp3" type="audio/mpeg"></source></audio>
+            </div>            
+            <div className='pillars'>
+              <h1> Alt Rock Music:</h1>
+              <audio controls> <source src = "Rock.mp3" type="audio/mpeg"></source></audio>
+            </div>            
+            <div className='pillars'>
+              <h1> Crescendo song:</h1>
+              <audio controls> <source src = "Crescendo.mp3" type="audio/mpeg"></source></audio>
+            </div>          </div>
         </div>
 
       </div>
