@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -93,14 +94,22 @@ function App() {
         </div>
         <div className='Pillars' id={projects ? "shown" : "hidden"}>
           <h1> Projects </h1>
-          <div className='row'>
-            <div className='pillars'>
-              <img src="STARTRS.png" className = "imager"/>
-              <a href='https://startrs.vercel.app'> STARTRS </a>
+          <div className='pillars'>
+            <h3> No AI Projects</h3>
+            <div className='row'>
+              <div className='pillars'>
+                <img src="STARTRS.png" className = "imager"/>
+                <a href='https://startrs.vercel.app'> STARTRS </a>
+              </div>
             </div>
-            <div className='pillars'>
-              <img src="claude-pl.png" className = "imager"/>
-              <a href='https://fpl-friend-claude.vercel.app'> FPL Friend Claude </a>
+          </div>
+          <div className='pillars'>
+            <h3> Ai Projects</h3>
+            <div className='row'>
+              <div className='pillars'>
+                <img src="claude-pl.png" className = "imager"/>
+                <a href='https://fpl-friend-claude.vercel.app'> FPL Friend Claude </a>
+              </div>
             </div>
           </div>
         </div>
