@@ -104,7 +104,8 @@ function App() {
               <h3>Infrastructure:</h3>
               <h4> Authentication:</h4>
               <ul> <li> Firestore</li></ul>
-              <h4> </h4>
+              <h3> Artificial Intelligence </h3>
+              <ul> <li> Claude Code 4.31B</li></ul>
             </div>
           </div>
         </div>
