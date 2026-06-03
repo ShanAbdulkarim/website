@@ -53,13 +53,11 @@ function App() {
           </div>
         </div>
         <h1> Shan Abdulkarim </h1>
-        <div className='row' id="navbar">
+        <div className='grid' id="navbar">
           <button onClick={toSoftwareEngineering}> Software Engineering</button>
           <button href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</button>
           <button onClick={toProjects}> Projects </button>
           <button onClick={toVideoEditing}> Video Editing</button>
-        </div>
-        <div className='row' id="navbar">
           <button onClick={toMusic}> Music</button>
           <button href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</button>
           <button onClick={toProjects}> Projects </button>
