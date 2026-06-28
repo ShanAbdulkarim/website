@@ -33,7 +33,7 @@ function App() {
     setSoftware(false)
   }
 
-  function toMusic(){
+  function toMusic() {
     setMusic(true)
     setProjects(false)
     setVideoEditing(false)
@@ -59,9 +59,6 @@ function App() {
           <button onClick={toProjects}> Projects </button>
           <button onClick={toVideoEditing}> Video Editing</button>
           <button onClick={toMusic}> Music</button>
-          <button href="https://www.goodreads.com/user/show/201437615-shan-abdulkarim"> Reading</button>
-          <button onClick={toProjects}> Projects </button>
-          <button onClick={toVideoEditing}> Video Editing</button>
         </div>
 
         <div className='Pillars' id={software ? "shown" : "hidden"}>
@@ -116,7 +113,7 @@ function App() {
             <h3> No AI Projects</h3>
             <div className='row'>
               <div className='pillars'>
-                <img src="STARTRS.png" className = "imager"/>
+                <img src="STARTRS.png" className="imager" />
                 <a href='https://startrs.vercel.app'> STARTRS </a>
               </div>
             </div>
@@ -125,7 +122,7 @@ function App() {
             <h3> Ai Projects</h3>
             <div className='row'>
               <div className='pillars'>
-                <img src="claude-pl.png" className = "imager"/>
+                <img src="claude-pl.png" className="imager" />
                 <a href='https://fpl-friend-claude.vercel.app'> FPL Friend Claude </a>
               </div>
             </div>
@@ -138,52 +135,52 @@ function App() {
           <div className='row'>
             <div className='pillars'>
               <div className='pillars'>
-                <h3> I worked for this creator and created these <br/> reels in After Effects </h3>
-                <img src = "gabstorm.png" href = "https://www.instagram.com/gabstorm.chess/" className='images'/>
+                <h3> I worked for this creator and created these <br /> reels in After Effects </h3>
+                <img src="gabstorm.png" href="https://www.instagram.com/gabstorm.chess/" className='images' />
                 <br />
-                <a href = "https://www.instagram.com/gabstorm.chess/"> Watch now! </a>
+                <a href="https://www.instagram.com/gabstorm.chess/"> Watch now! </a>
               </div>
-              <h3> I worked for the Traveling Chess Club and created these <br/> reels in After Effects </h3>
+              <h3> I worked for the Traveling Chess Club and created these <br /> reels in After Effects </h3>
               <div className='row'>
                 <div className='pillars'>
-                  <img src = "traveler.jpg" className='imager'/>
-                  <a href = "https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
+                  <img src="traveler.jpg" className='imager' />
+                  <a href="https://www.instagram.com/p/DXaPmg0CcZm/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
-                  <img src = "traveler.jpg" className='imager'/>
-                  <a href = "https://www.instagram.com/p/DXPgu-FCbqC/"> Watch now! </a>
+                  <img src="traveler.jpg" className='imager' />
+                  <a href="https://www.instagram.com/p/DXPgu-FCbqC/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
-                  <img src = "traveler.jpg" className='imager'/>
-                  <a href = "https://www.instagram.com/p/DVP84yoDYqP/"> Watch now! </a>
+                  <img src="traveler.jpg" className='imager' />
+                  <a href="https://www.instagram.com/p/DVP84yoDYqP/"> Watch now! </a>
                 </div>
                 <div className='pillars'>
-                  <img src = "traveler.jpg" className='imager'/>
-                  <a href = "https://www.instagram.com/p/DVZyxaICcYB/"> Watch now! </a>
+                  <img src="traveler.jpg" className='imager' />
+                  <a href="https://www.instagram.com/p/DVZyxaICcYB/"> Watch now! </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className='pillars' id = {music ? "shown" : "hidden"}>
+        <div className='pillars' id={music ? "shown" : "hidden"}>
           <h1> Music tracks</h1>
           <div className='row'>
             <div className='pillars'>
               <h3> Intro Music:</h3>
-              <audio controls controlsList='nodownload noplaybackrate'> <source src = "Intro.mp3" type="audio/mpeg"></source></audio>
+              <audio controls controlsList='nodownload noplaybackrate'> <source src="Intro.mp3" type="audio/mpeg"></source></audio>
             </div>
             <div className='pillars'>
               <h3> Trap Music:</h3>
-              <audio controls controlsList='nodownload noplaybackrate'> <source src = "Trap.mp3" type="audio/mpeg"></source></audio>
-            </div>            
+              <audio controls controlsList='nodownload noplaybackrate'> <source src="Trap.mp3" type="audio/mpeg"></source></audio>
+            </div>
             <div className='pillars'>
               <h3> Alt Rock Music:</h3>
-              <audio controls controlsList='nodownload noplaybackrate'> <source src = "Rock.mp3" type="audio/mpeg"></source></audio>
-            </div>            
+              <audio controls controlsList='nodownload noplaybackrate'> <source src="Rock.mp3" type="audio/mpeg"></source></audio>
+            </div>
             <div className='pillars'>
               <h3> Crescendo song:</h3>
-              <audio controls controlsList='nodownload noplaybackrate'> <source src = "Crescendo.mp3" type="audio/mpeg"></source></audio>
+              <audio controls controlsList='nodownload noplaybackrate'> <source src="Crescendo.mp3" type="audio/mpeg"></source></audio>
             </div>          </div>
         </div>
 
