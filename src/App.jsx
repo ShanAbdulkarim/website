@@ -104,6 +104,30 @@ function App() {
               <h3> Artificial Intelligence </h3>
               <ul> <li> Claude Code 4.31B</li></ul>
             </div>
+            <div className='pillars'>
+              <h3>Video Editing:</h3>
+              <ul>
+                <li> After Effects </li>
+                <li> OBS </li>
+                <li> Premiere Pro </li>
+                <li> Blender</li>
+              </ul>
+            </div>
+            <div className='pillars'>
+              <h3>Game Engines:</h3>
+              <ul>
+                <li> Godot </li>
+                <li> PyGame </li>
+                <li> Unreal Engine 5 </li>
+              </ul>
+            </div>
+            <div className='pillars'>
+              <h3>Music:</h3>
+              <ul>
+                <li> LMMS </li>
+                <li> Audacity </li>
+              </ul>
+            </div>
           </div>
         </div>
 
